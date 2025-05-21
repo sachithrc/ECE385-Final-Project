@@ -47,7 +47,7 @@ These scripts prepare the necessary files for simulation and synthesis:
 - `src/python/convert_images_to_hex.py` takes images from the dataset and converts them to hex format for the test image provider
 - `src/python/convert_weights_to_coe.py` loads the trained Keras model from the dataset and converts all weights and biases to the fixed-point Q1.15 format
 
-### 2. BRAM IP Creation in Vivado
+### 2. Required Files and BRAM IP Creation in Vivado
 
 For each set of weights, biases, and test images, create BRAM IPs in Vivado:
 
