@@ -110,18 +110,6 @@ The neural network processes one neuron at a time in a sequential manner to mini
 
 **Note on Implementation:** There were some errors in the way we loaded the weight files that caused issues when running the project. Testing wasn't completely successful - only circle detection works properly. However, after examining all states of the neural network, the pipeline architecture of the neural network is functioning perfectly.
 
-## Resource Usage
-
-The project requires significant BRAM resources to store the weights, biases, and test images:
-- Layer 1 weights: 3600 × 256 = 921,600 parameters
-- Layer 2 weights: 256 × 256 = 65,536 parameters
-- Layer 3 weights: 256 × 256 = 65,536 parameters
-- Output layer weights: 256 × 3 = 768 parameters
-- Plus biases for each layer
-- Test images: 4 images × 3600 pixels × 8 bits = 14,400 bytes
-
-Each weight/bias parameter requires 2 bytes (16 bits) in Q1.15 format. The total memory requirement will be calculated by the weight conversion script.
-
 ## Future Enhancements
 
 - Implement a more resource-efficient neural network with fewer parameters
