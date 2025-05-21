@@ -1,0 +1,19 @@
+Neural Network Weights Summary
+--------------------------
+Input size: 3600 (60x60 grayscale)
+Layer 1: 3600 -> 64
+  Weights: 230400 parameters
+  Biases: 64 parameters
+Layer 2: 64 -> 64
+  Weights: 4096 parameters
+  Biases: 64 parameters
+Layer 3: 64 -> 64
+  Weights: 4096 parameters
+  Biases: 64 parameters
+Layer 4: 64 -> 3
+  Weights: 192 parameters
+  Biases: 3 parameters
+
+Total weights: 238784 parameters
+Total biases: 195 parameters
+Total parameters: 238979 parameters
