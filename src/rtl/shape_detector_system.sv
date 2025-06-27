@@ -1,4 +1,4 @@
-// Top-level module that combines test_image_provider and shape_detector_top
+
 module shape_detector_system (
     input  logic        clk,
     input  logic        rst_n,
