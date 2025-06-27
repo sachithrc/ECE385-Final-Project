@@ -129,4 +129,4 @@ The dataset used for training the neural network was obtained from Kaggle: [Four
 - However, the use of these files to further implement your own project is permitted.
 - If you use any part of this project, please provide appropriate attribution.
 
-© 2023. All rights reserved. 
+© 2025. All rights reserved. 
